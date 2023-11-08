@@ -1,28 +1,16 @@
 @use "sass:map";
 @use "sass:list";
 
+@use "sass:map";
+@use "sass:list";
+
 $font-path: "../../styles-common/fonts/Poppins/";
 /*prettier-ignore*/
-$list: "Poppins-Thin",                     // 100
-       "Poppins-ExtraLight",               // 200
-       "Poppins-ExtraLightItalic",         // 250
-       "Poppins-Light",                    // 300
-       "Poppins-LightItalic",              // 350
-       "Poppins-Regular",                  // 400
-       "Poppins-Italic",                   // 450
-       "Poppins-Medium",                   // 500
-       "Poppins-MediumItalic",             // 550
-       "Poppins-SemiBold",                 // 600
-       "Poppins-SemiBoldItalic",           // 650
-       "Poppins-Bold",                     // 700
-       "Poppins-BoldItalic",               // 750
-       "Poppins-ExtraBold",                // 800
-       "Poppins-ExtraBoldItalic",          // 850
-       "Poppins-Black",                    // 900
-       "Poppins-BlackItalic"; // 950
+$list: "Lato-Regular",            // 100
+       "Lato-Bold"; // 200
 
 /*prettier-ignore*/
-$fontWeight: 100, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950;
+$fontWeight: 400, 700;
 
 @each $name, $v in $list {
   $src: $font-path + $name;
@@ -41,3 +29,44 @@ $fontWeight: 100, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 80
     font-weight: var(--font-weight--#{nth($fontWeight, $i)});
   }
 }
+
+// $font-path: "../../styles-common/fonts/Poppins/";
+// /*prettier-ignore*/
+// $list: "Poppins-Thin",                     // 100
+//        "Poppins-ExtraLight",               // 200
+//        "Poppins-ExtraLightItalic",         // 250
+//        "Poppins-Light",                    // 300
+//        "Poppins-LightItalic",              // 350
+//        "Poppins-Regular",                  // 400
+//        "Poppins-Italic",                   // 450
+//        "Poppins-Medium",                   // 500
+//        "Poppins-MediumItalic",             // 550
+//        "Poppins-SemiBold",                 // 600
+//        "Poppins-SemiBoldItalic",           // 650
+//        "Poppins-Bold",                     // 700
+//        "Poppins-BoldItalic",               // 750
+//        "Poppins-ExtraBold",                // 800
+//        "Poppins-ExtraBoldItalic",          // 850
+//        "Poppins-Black",                    // 900
+//        "Poppins-BlackItalic"; // 950
+
+// /*prettier-ignore*/
+// $fontWeight: 100, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950;
+
+// @each $name, $v in $list {
+//   $src: $font-path + $name;
+//   $i: list.index($list, $name);
+
+//   @font-face {
+//     src: url($src + ".font.eot");
+//     src:
+//       url($src + ".font.woff2") format("woff2"),
+//       url($src + ".font.woff") format("woff");
+//     // url($src + ".font.eot?#iefix") format("embedded-opentype"),
+//     // url($src + ".font.ttf") format("truetype"),
+//     // url($src + ".font.otf") format("opentype");
+//     // url($src + ".font.svg") format("svg");
+//     font-family: $name;
+//     font-weight: var(--font-weight--#{nth($fontWeight, $i)});
+//   }
+// }
