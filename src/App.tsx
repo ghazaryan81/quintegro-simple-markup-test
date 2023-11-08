@@ -1,7 +1,7 @@
 import "./App.scss";
 
 function App() {
-  return <div></div>;
+  return <div className="wrap"></div>;
 }
 
 export default App;

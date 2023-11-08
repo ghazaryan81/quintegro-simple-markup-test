@@ -15,7 +15,7 @@
   "scripts": {
     "dev": "npm run dev:watchers",
     "dev:watchers": "npx nodemon --watch ./package.json --watch ./tsconfig.json --watch ./vite.config.ts --watch ./data/run --exec npm run dev:run",
-    "dev:run": "npm run kill-port & concurrently \"npm run json-to-scss\" \"npm run data:todo\" \"npm run vite:dev\"",
+    "dev:run": "npm run kill-port & concurrently \"npm run json-to-scss\" \"npm run data:cards\" \"npm run vite:dev\"",
     "vite:dev": "vite --port 3000",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -25,7 +25,7 @@
     "prepare": "npx husky install",
     "kill-port": "npx kill-port --port 5173,4173,3000,8080,4001,4002,4003",
     "======================== DATA ========================": "========================",
-    "data:todo": "npx json-server -w ./src/data/run/todo.json -p 4001",
+    "data:cards": "npx json-server -w ./src/data/run/cards.json -p 4001",
     "======================= JSON-TO-SCSS =================": "========================",
     "json-to-scss": "npx nodemon --watch ./src/styles-common/variables.json --exec npm run json-to-scss:run",
     "json-to-scss:run": "npx json-to-scss ./src/styles-common/variables.json",

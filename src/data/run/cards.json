@@ -7,11 +7,115 @@
         "supTitle": "Extra fresh fruits and vegetables",
         "title": "Apples, bananas, berries, citrus fruits like oranges and lemons",
         "price": "3.90",
+        "location": "Newport Beach, CA, USA",
         "tags": [
           {
             "id": 0,
             "link": "#",
             "label": "Fresh"
+          },
+          {
+            "id": 1,
+            "link": "#",
+            "label": "Healthy food"
+          }
+        ]
+      },
+
+      {
+        "id": 1,
+        "link": "#",
+        "supTitle": "Fruits and vegetables are packed with essential vitamins, minerals, and nutrients that are essential for maintaining a healthy body and mind",
+        "title": "Fruits and vegetables",
+        "price": "3.90",
+        "location": "Newport Beach, CA, USA",
+        "tags": [
+          {
+            "id": 0,
+            "link": "#",
+            "label": "Fresh"
+          },
+          {
+            "id": 1,
+            "link": "#",
+            "label": "Healthy food"
+          }
+        ]
+      },
+
+      {
+        "id": 2,
+        "link": "#",
+        "supTitle": "Extra fresh fruits and vegetables",
+        "title": "Apples, bananas, berries, citrus fruits like oranges and lemons, tropical fruits like pineapple and mango, and stone fruits like peaches and plums",
+        "price": "3.90",
+        "location": "Newport Beach, CA, USA",
+        "tags": [
+          {
+            "id": 0,
+            "link": "#",
+            "label": "Fresh"
+          },
+          {
+            "id": 1,
+            "link": "#",
+            "label": "Healthy food"
+          }
+        ]
+      },
+
+      {
+        "id": 3,
+        "link": "#",
+        "supTitle": "Fruits and vegetables are packed with essential vitamins, minerals, and nutrients",
+        "title": "Fruits and vegetables",
+        "price": "3.90",
+        "location": "Newport Beach, CA, USA",
+        "tags": [
+          {
+            "id": 0,
+            "link": "#",
+            "label": "Healthy eating"
+          },
+          {
+            "id": 1,
+            "link": "#",
+            "label": "Vitamins"
+          },
+          {
+            "id": 2,
+            "link": "#",
+            "label": "Minerals"
+          },
+          {
+            "id": 3,
+            "link": "#",
+            "label": "Nutrients"
+          },
+          {
+            "id": 4,
+            "link": "#",
+            "label": "Balanced diet"
+          },
+          {
+            "id": 5,
+            "link": "#",
+            "label": "Health benefits"
+          },
+          {
+            "id": 6,
+            "link": "#",
+            "label": "Well-Being"
+          },
+          {
+            "id": 7,
+            "link": "#",
+            "label": "Nutrition"
+          },
+          {
+            "id": 8,
+            "link": "#",
+            "label": "Plant-based foods"
           }
         ]
       }

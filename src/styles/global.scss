@@ -8,4 +8,10 @@
 body {
   font-family: var(--font-family--Poppins-Light);
   font-weight: var(--font-weight--400);
+  background-color: var(--color--white-100);
+}
+
+.wrap {
+  @include mx(auto);
+  max-width: var(--layout-width--2xl);
 }
