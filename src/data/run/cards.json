@@ -1,0 +1,20 @@
+{
+  "cards": {
+    "list": [
+      {
+        "id": 0,
+        "link": "#",
+        "supTitle": "Extra fresh fruits and vegetables",
+        "title": "Apples, bananas, berries, citrus fruits like oranges and lemons",
+        "price": "3.90",
+        "tags": [
+          {
+            "id": 0,
+            "link": "#",
+            "label": "Fresh"
+          }
+        ]
+      }
+    ]
+  }
+}
