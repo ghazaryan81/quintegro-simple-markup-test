@@ -1,0 +1,14 @@
+/* stylelint-disable no-empty-source */
+@use "../../node_modules/reset-css/sass/_reset.scss" as *;
+@use "./abstracts" as *;
+@use "./base" as *;
+
+body {
+  font-family: var(--font-family--Poppins-Light);
+  font-weight: var(--font-weight--300);
+}
+
+.some {
+  display: block;
+  border: solid green 10px;
+}
