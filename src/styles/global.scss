@@ -1,12 +1,12 @@
+// /* stylelint-disable no-empty-source */
 @use "sass:map";
 @use "sass:math";
-// /* stylelint-disable no-empty-source */
 @use "../../node_modules/reset-css/sass/_reset.scss" as *;
 @use "./abstracts" as *;
 @use "./base" as *;
 
 body {
-  color: green;
   font-family: var(--font-family--Poppins-Light);
   font-weight: var(--font-weight--400);
+  color: green;
 }

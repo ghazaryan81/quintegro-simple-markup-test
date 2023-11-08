@@ -15,7 +15,7 @@
   "scripts": {
     "dev": "npm run dev:watchers",
     "dev:watchers": "npx nodemon --watch ./package.json --watch ./tsconfig.json --watch ./vite.config.ts --watch ./data/run --exec npm run dev:run",
-    "dev:run": "npm run kill-port & concurrently \"npm run data:todo\" \"npm run vite:dev\"",
+    "dev:run": "npm run kill-port & concurrently \"npm run json-to-scss\" \"npm run data:todo\" \"npm run vite:dev\"",
     "vite:dev": "vite --port 3000",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
