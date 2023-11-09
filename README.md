@@ -1,6 +1,6 @@
 ## Markup symbol shape with scss html
 
-url: https://digitain-test-task-markup-symbol-shap.netlify.app/
+url: https://responsive-card-list.netlify.app/
 
 ---
 
