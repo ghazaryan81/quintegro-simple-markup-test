@@ -22,8 +22,8 @@ body {
   @include px(1.5rem);
   @include py(3rem);
   min-width: var(--layout-width--2sm);
-  // max-width: var(--layout-width--2xl);
-  max-width: 1230px;
+  max-width: var(--layout-width--2xl);
+  // max-width: 1230px;
 }
 
 %h2 {
