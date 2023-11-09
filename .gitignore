@@ -10,7 +10,7 @@
 # Auto-generated elements (production)
 #dist
 
-dist
+#dist
 dist-ssr
 *.local
 /build
