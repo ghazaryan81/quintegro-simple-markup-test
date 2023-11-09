@@ -8,6 +8,7 @@
         "title": "Apples, bananas, berries, citrus fruits like oranges and lemons",
         "price": "3.90",
         "location": "Newport Beach, CA, USA",
+        "imgName": "fruits-and-vegetables",
         "tags": [
           {
             "id": 0,
@@ -29,6 +30,7 @@
         "title": "Fruits and vegetables",
         "price": "3.90",
         "location": "Newport Beach, CA, USA",
+        "imgName": "fruits-and-vegetables",
         "tags": [
           {
             "id": 0,
@@ -50,6 +52,7 @@
         "title": "Apples, bananas, berries, citrus fruits like oranges and lemons, tropical fruits like pineapple and mango, and stone fruits like peaches and plums",
         "price": "3.90",
         "location": "Newport Beach, CA, USA",
+        "imgName": "fruits-and-vegetables",
         "tags": [
           {
             "id": 0,
@@ -71,6 +74,7 @@
         "title": "Fruits and vegetables",
         "price": "3.90",
         "location": "Newport Beach, CA, USA",
+        "imgName": "fruits-and-vegetables",
         "tags": [
           {
             "id": 0,

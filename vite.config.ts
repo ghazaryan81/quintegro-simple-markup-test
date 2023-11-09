@@ -9,8 +9,8 @@ export default defineConfig({
     svgr({
       svgrOptions: {
         // svgr options
-      }
-      // include: "**/*.svg"
+      },
+      include: "src/svg/**/*.svg?react"
     })
   ],
   resolve: {

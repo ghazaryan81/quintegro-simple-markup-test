@@ -1,12 +1,13 @@
 @use "sass:map";
 @use "sass:list";
 
-$font-path: "../../styles-common/fonts/Lato/";
-/*prettier-ignore*/
+// $font-path: "../../styles-common/fonts/Lato/";
+$font-path: "/static/fonts/Lato/";
+
+/* prettier-ignore */
 $list: "Lato-Regular", // 100
        "Lato-Bold"; // 200
 
-/*prettier-ignore*/
 $fontWeight: 400, 700;
 
 @each $name, $v in $list {
@@ -14,15 +15,15 @@ $fontWeight: 400, 700;
   $i: list.index($list, $name);
 
   @font-face {
-    src: url($src + ".font.eot");
-    src:
-      url($src + ".font.woff2") format("woff2"),
-      url($src + ".font.woff") format("woff");
     // url($src + ".font.eot?#iefix") format("embedded-opentype"),
     // url($src + ".font.ttf") format("truetype"),
     // url($src + ".font.otf") format("opentype");
     // url($src + ".font.svg") format("svg");
     font-family: $name;
-    font-weight: var(--font-weight--#{nth($fontWeight, $i)});
+    src: url($src + ".font.eot");
+    src:
+      url($src + ".font.woff2") format("woff2"),
+      url($src + ".font.woff") format("woff");
+    font-weight: var(--font-weight--#{list.nth($fontWeight, $i)});
   }
 }

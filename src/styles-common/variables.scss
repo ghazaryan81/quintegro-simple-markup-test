@@ -1,31 +1,31 @@
 $variables: (
   layout-width: (
-    xs: 380px,
-    sm: 576px,
-    2sm: 720px,
-    md: 768px,
-    lg: 1024px,
-    xl: 1260px,
-    2xl: 1440px,
-    3xl: 1600px
+    xs: 410px,
+    sm: 606px,
+    2sm: 750px,
+    md: 798px,
+    lg: 1054px,
+    xl: 1290px,
+    2xl: 1470px,
+    3xl: 1630px
   ),
   break-point: (
-    xs: 380px,
-    sm: 576px,
-    2sm: 720px,
-    md: 768px,
-    lg: 1024px,
-    xl: 1260px,
-    2xl: 1440px,
-    3xl: 1600px
+    xs: 410px,
+    sm: 606px,
+    2sm: 750px,
+    md: 798px,
+    lg: 1054px,
+    xl: 1290px,
+    2xl: 1470px,
+    3xl: 1630px
   ),
   color: (
     black-100: '0, 0, 0',
     blue-100: '9, 18, 66',
+    brown-100: '71, 67, 66',
     white-100: '255, 255, 255',
-    gray-100: '153, 153, 153',
-    yellow-100: '253, 175, 59',
-    violet-100: '245, 248, 250'
+    gray-100: '191, 197, 206',
+    red-100: '193, 18, 42'
   ),
   font-size: (
     100: 1rem,
@@ -36,6 +36,7 @@ $variables: (
     190: 1.9rem,
     200: 2rem,
     220: 2.2rem,
+    240: 2.4rem,
     250: 2.5rem,
     300: 3rem,
     350: 3.5rem,
