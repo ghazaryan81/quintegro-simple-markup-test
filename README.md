@@ -1,4 +1,4 @@
-## Markup symbol shape with scss html
+## Список карточек
 
 url: https://responsive-card-list.netlify.app/
 
